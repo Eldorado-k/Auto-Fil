@@ -13,11 +13,11 @@ then
   git clone https://github.com/Eldorado-k/Auto-Fil
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Auto-Fil
+  git clone $UPSTREAM_REPO /ProfessorBot
 fi
 
 # Upgrade pip and install requirements
-cd /Auto-Fil
+cd /ProfessorBot
 pip install -U -r requirements.txt --force-reinstall
 
 # Start bot
