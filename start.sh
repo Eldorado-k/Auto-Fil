@@ -10,7 +10,7 @@ pip install -U pip
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Eldorado-k/Auto-Fil
+  git clone https://github.com/MrMKN/PROFESSOR-BOT /ProfessorBot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /ProfessorBot
